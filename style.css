@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap");
+
+body{
+    background-image: url(../images/plant.jpg);
+    font-family: "Quicksand", sans-serif;
+    background-size:cover;
+    margin: 0;
+}
+
+#wrapper {
+    width: 80%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    background-color: white;
+    box-shadow: 5px 10px 50px 5px rgb(153, 150, 150);
+}
+
+.plant-compair{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
+
+.plant-pic-left img{
+    flex: 1;
+    /* margin-left: 5em; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    /* margin-right: 5em; */
+    border: grey solid .2em;
+    border-radius: 1em;
+}
+
+.plant-pic-right img{
+    flex: 1;
+    /* margin-left: 5em; */
+    width: 90%;
+    /* margin-right: 5em; */
+    border: grey solid .2em;
+    border-radius: 1em;
+}
+
+#top{
+    background-color: rgb(247, 247, 247);
+    padding-bottom: 1px;
+}
+
+#bottom {
+    background-color: rgb(247, 247, 247);
+    padding-bottom: 1em;
+}
+
+#name{
+    padding-top: 1em;
+    text-align: center;
+}
+
+#map{
+    text-decoration: none;
+    color: rgb(17, 87, 114)
+}
+
+#main-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sci-name{
+    text-align: center;
+}
+
+#titles {
+    display: flex;
+    margin: auto;
+}
+
+.plant-titles{
+    text-align: center;
+    flex: 1em;
+}
+
+#flower{
+    margin-left: 35vw;
+}
