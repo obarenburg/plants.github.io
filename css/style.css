@@ -1,19 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap");
 
 body{
-    background-image: url(../images/plant.jpg);
     font-family: "Quicksand", sans-serif;
     background-size:cover;
     margin: 0;
 }
 
-#wrapper {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    background-color: white;
-    box-shadow: 5px 10px 50px 5px rgb(153, 150, 150);
+img{
+    align-items: center;
+    margin: auto;
 }
 
 .plant-compair{
@@ -21,10 +16,6 @@ body{
     /* align-items: center; */
     justify-content: center;
     text-align: center;
-}
-
-img{
-    width: 100%;
 }
 
 .plant-pic-left img{
@@ -55,6 +46,10 @@ img{
 #bottom {
     background-color: rgb(247, 247, 247);
     padding-bottom: 1em;
+}
+
+#art{
+    text-align: center;
 }
 
 #name{
