@@ -24,6 +24,10 @@ body{
     text-align: center;
 }
 
+img{
+    width: 100%;
+}
+
 .plant-pic-left img{
     flex: 1;
     /* margin-left: 5em; */
@@ -71,4 +75,8 @@ body{
 .plant-titles{
     text-align: center;
     flex: 1em;
+}
+
+#flower{
+    margin-left: 35vw;
 }
