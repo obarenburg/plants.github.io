@@ -63,6 +63,17 @@ img{
     text-align: center;
 }
 
+#map{
+    text-decoration: none;
+    color: rgb(17, 87, 114)
+}
+
+#main-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #sci-name{
     text-align: center;
 }
